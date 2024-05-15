@@ -1,0 +1,5 @@
+[workspace]
+members = ["error-code", "error-code-derive"]
+default-members = ["error-code"]
+
+resolver = "2"
