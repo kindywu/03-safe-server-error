@@ -31,7 +31,7 @@ enum AppError {
     ServerError(String),
 
     #[error("Unknown error")]
-    #[error_info(code = "U-E", app_code = "500")]
+    #[error_info(code = "UE", app_code = "500")]
     Unknown,
 }
 
