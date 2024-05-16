@@ -8,3 +8,7 @@
 - git add .
 - git commit -a -m "init"
 - git push -u origin main
+
+# 调试
+
+- $env:RUST_LOG="debug"; cargo run --example web
